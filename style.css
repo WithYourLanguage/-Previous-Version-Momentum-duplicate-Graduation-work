@@ -4,7 +4,7 @@
 }
 
 #body { /* 배경*/
-    background: url(../img/3.jpg)no-repeat;
+    background: url(3.jpg)no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100vw;
