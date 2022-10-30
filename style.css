@@ -1,0 +1,58 @@
+
+.hidden {
+    display: none;
+}
+
+#body { /* 배경*/
+    background: url(../img/3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh
+}
+
+#clock {
+    text-align : center; /*가운데 정렬*/
+    line-height : 300px; /*위에서부터 150px 띄워라*/
+    font-size : 150px; /*글자 크기를 250px 로 키워라*/
+    font-family: 'SBAggroB';
+}
+
+#todo-form {
+    width:300px; /* input Box 의 가로 길이*/
+    height:200px; /* input Box 의 새로 길이*/
+    font-size:30px; /* input Box 의 이용자 입력 글자 크기*/
+    margin: auto; /*가운데 정렬*/
+    color:White
+}
+
+#todo-list {
+    text-align: center;
+}
+
+#login-form {
+    width:500px; /* input Box 의 가로 길이*/
+    height:200px; /* input Box 의 새로 길이*/
+    font-size:30px; /* input Box 의 이용자 입력 글자 크기*/
+    margin: auto; /*가운데 정렬*/
+    line-height : 10px; /*위에서부터 150px 띄워라*/
+    color:White
+}
+
+#Login-Text {
+    text-align : center;
+    text-align: center;
+    line-height : 250px; /*위에서부터 150px 띄워라*/
+}
+
+#greeting { /* 이용자 인사*/
+    text-align:center;
+    line-height : 35px; /*위에서부터 150px 띄워라*/
+    font-size : 30px; /*글자 크기를 250px 로 키워라*/
+    font-family: 'LeferiPoint-WhiteObliqueA';
+}
+
+#quote {
+    text-align:center;
+    font-family: 'LeferiPoint-WhiteObliqueA';
+}
