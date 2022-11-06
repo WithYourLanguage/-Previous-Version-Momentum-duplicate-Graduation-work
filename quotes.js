@@ -36,8 +36,8 @@ const quotes = [
         author: 'Henri-Frederic Amiel'
     },
     {
-        quote: '이강은 똑똑하다.',
-        author: '이강'
+        quote: 'A genius is just a talented person who does his homework.',
+        author: 'Thomas A. Edison'
     },
 
 

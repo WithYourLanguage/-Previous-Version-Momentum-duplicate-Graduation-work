@@ -1,0 +1,32 @@
+#body {
+    background-image: url(bgImage)no-repeat;
+    background-image: url(#oneImg);
+}
+
+
+
+#zeroImg {
+    background: url(0.jpg)no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh
+}
+#oneImg {
+    background: url(1.jpg)no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh
+}
+
+#twoImg {
+    background: url(2.jpg)no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh
+}

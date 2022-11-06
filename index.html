@@ -10,23 +10,36 @@
     <link rel="stylesheet" href="aFont.css">
     <title>Time</title>
 </head>
-<h2 class="hidden" id="Login-Text" style=color:White>Hello, what's your name?</h2>
+<h2 class="hidden" id="Login-Text" style=color:White topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">Hello, what's your name?</h2>
+<form class="hidden" id="login-form">
+    <input 
+     required
+     maxlength="15" 
+     type="text" 
+     style="color:rgb(255, 255, 255)"
+     placeholder="WHat is your name?"
+     >
+</form>
+<div id="weather" style=color:White>
+    <span>날씨를 이용하시려면 위치 권한을 허용해주세요</span>
+    <span></span>
+      
+
+</div>
+<h2 id="clock" style=color:White topmargin="0"  leftmargin="0" marginwidth="0" marginheight="0">00:00</h2>
+
+
+
+
 <body id="body" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
-    <!--<h1 id="greeting" style=color:White ></h1>-->
-    <form class="hidden" id="login-form">
-        <input 
-         required
-         maxlength="15" 
-         type="text" 
-         style="color:rgb(255, 255, 255)"
-         placeholder="WHat is your name?"
-         >
-    </form>
+
+    <h1 id="greeting" style=color:White ></h1>
     
-    <h2 id="clock" style=color:White >00:00</h2>
+    
+    
     
     <form id="todo-form">
-        <input type="text" style="color:rgb(255, 255, 255);" placeholder="Write a To Do and Press Enter" required>
+        <input type="text" style="color:rgb(255, 255, 255); " placeholder="Write a To Do and Press Enter" required>
     </form>
     <ul id="todo-list" style=color:White></ul>
     
@@ -35,13 +48,7 @@
         <span></span>
     
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    <div class="background" id="background"></div>
-        
-
-    </div>
+    
    
 
     
@@ -52,6 +59,7 @@
     <script src="background.js"></script>
     <script src="todo.js"></script>
     <script src="weather.js"></script>
+
     
 </body>
 </html>

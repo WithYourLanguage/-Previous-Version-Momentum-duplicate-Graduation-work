@@ -4,6 +4,8 @@ const loginText = document.querySelector("#Login-Text")
 const greeting = document.querySelector("#greeting")
 
 const clock = document.querySelector("#clock")
+
+
 const todoList = document.querySelector("#todo-list")
 
 const HIDDEN_CLASSNAME = "hidden"
@@ -38,7 +40,6 @@ function paintGreetings(username) {
     greeting.classList.remove(HIDDEN_CLASSNAME)
     clock.classList.remove(HIDDEN_CLASSNAME, username) // 시계
     todoList.classList.remove(HIDDEN_CLASSNAME, username)
-    // 여기야 여기라구 ***************************************************************************
     const date = new Date();
     const hours = String(date.getHours()).padStart(2, "0");
     console.log(hours)
@@ -50,9 +51,9 @@ function paintGreetings(username) {
 
     if(hours < 12) {
         greeting.innerText = 'Good morning, ' + username
-    } else if(hours >= 12) {
+    } else if(hours >= 12 && hours < 18) {
         greeting.innerText = 'Good afternoon, ' + username
-    } else if(hours >= 18) {
+    } else {
         greeting.innerText = 'Good evening, ' + username
     }
     
